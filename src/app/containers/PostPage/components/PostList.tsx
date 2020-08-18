@@ -57,7 +57,6 @@ export default function PostList() {
         useEffect(effect, [])
     }
     useEffectOnMount(() => {
-        // When initial state username is not null, submit the form to load repos
         dispatch(actions.loadPosts())
     })
 
